@@ -11,5 +11,54 @@ html {
 }
 
 body {
+  box-sizing: border-box;
   background-color: #f8f9fa;
+  font-family: 'Poppins', sans-serif;
+  color: #444;
+  font-size: 1.5rem;
+}
+
+header {
+  margin: 2rem 0 5rem 0;
+}
+
+.logo {
+  display: inline-block;
+  width: 7rem;
+}
+
+.logo-text {
+  font-size: 1.9rem;
+  font-weight: 500;
+}
+
+.card {
+  width: 70%;
+}
+
+.blockquote {
+  font-size: 2rem;
+}
+
+.blockquote-footer {
+  margin-bottom: 2.3rem;
+}
+
+.quote {
+  font-style: italic;
+}
+
+.author {
+  font-size: 1.6rem;
+}
+
+.btn-large {
+  padding: 1rem 1.5rem;
+  font-size: 1.4rem;
+}
+
+@media screen and (max-width: 550px) {
+  .card {
+    width: auto;
+  }
 }
